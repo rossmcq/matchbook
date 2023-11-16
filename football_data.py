@@ -1,7 +1,7 @@
 import requests
 from db_helper import get_game_id
 
-SESSION_TOKEN = "269539_7f9e80c25128501fc8ccb87ba622d50"
+SESSION_TOKEN = "DUMMY_TOKEN"
 EVENT_ID = "2535420458100008"
 list_url = "https://api.matchbook.com/edge/rest/events?per-page=20&states=open&exchange-type=back-lay&odds-type=DECIMAL&include-prices=true&price-depth=1"
 
