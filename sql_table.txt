@@ -1,0 +1,8 @@
+# Game details,
+id | event_id | market_id | description 
+
+# historic_odds
+game_id | timestamp | top_home_back_odds | top_draw_back_odds | top_away_back_odds | 
+top_home_lay_odds | top_draw_lay_odds | top_away_lay_odds | top_home_back_amount | 
+top_draw_back_amount | top_away_back_amount | top_home_lay_amount | top_draw_lay_amount | 
+top_away_lay_amount 
