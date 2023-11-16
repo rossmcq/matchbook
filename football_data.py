@@ -43,4 +43,4 @@ def create_game_record(event_id: str, market_id: str, description: str):
 
 
 if __name__ == "__main__":
-    print(record_match_odds(EVENT_ID))
+    print(get_match_odds_market_id(EVENT_ID))
