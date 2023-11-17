@@ -11,7 +11,7 @@ payload = {"username": USERNAME, "password": PASSWORD}
 header = {"content-type": "application/json;charset=UTF-8", "accept": "*/*"}
 
 
-def login():
+def login() -> str:
     r = requests.post(url, data=json.dumps(payload), headers=header)
     data = r.json()
     return data["session-token"]
